@@ -1,0 +1,37 @@
+@-moz-document domain("killsixbilliondemons.com") {
+#page{
+	width: 100vw !important;
+}
+
+html{
+	scrollbar-width: none;
+}
+}
+
+
+@-moz-document domain("reddit.com") {
+    div.side 
+	{
+		position:fixed !important;
+		opacity:0.5 !important;
+		right:0px !important;
+		height:20px !important;
+		width: 20px !important;
+		overflow:hidden !important;
+		top:0px !important;
+		z-index:100 !important; 
+		margin-top: 50px !important;
+    }
+    
+    div.side:hover
+	{
+		background-color:#262626 !important;
+		position:fixed !important;
+		opacity:1 !important;
+		border: 0px solid #000000 !important;
+		height:100% !important;
+		width: auto !important;
+		overflow:auto !important;
+		padding-top:2.5em !important;    
+    }
+}
