@@ -9,7 +9,11 @@ html{
 }
 
 
-@-moz-document domain("reddit.com") {
+
+
+/*I'm pretty sure I didn't make this one, 
+If I find the original author, I'll credit them.*/
+@-moz-document domain("reddit.com") { 
     div.side 
 	{
 		position:fixed !important;
