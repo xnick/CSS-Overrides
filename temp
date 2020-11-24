@@ -1,0 +1,9 @@
+@-moz-document domain("killsixbilliondemons.com") {
+#page{
+	width: 100vw !important;
+}
+
+html{
+	scrollbar-width: none;
+}
+}
