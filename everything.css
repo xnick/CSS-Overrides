@@ -1,3 +1,4 @@
+/*I'm reading on a vertical monitor. Use the whole view, and don't litter with useless stuff.*/
 @-moz-document domain("killsixbilliondemons.com") {
 #page{
 	width: 100vw !important;
@@ -8,7 +9,17 @@ html{
 }
 }
 
+/*Youtube's subscriptions page doesn't use the whole view. Let's fix that.*/
+@-moz-document url-prefix("https://www.youtube.com/feed/subscriptions") {
+ytd-two-column-browse-results-renderer.style-scope {
+	max-width: 100vw !important;
+	width: 90vw !important;
+}
 
+ytd-section-list-renderer.style-scope > div:nth-child(2) {
+	padding-left: 2vw;
+}
+}
 
 
 /*I'm pretty sure I didn't make this one, 
